@@ -22,9 +22,9 @@ int main(){
     while(q--){
         int num; cin>>num;
         if(isPrime[num]){
-            cout<<"prime\n";
+            cout<<"Yes\n";
         }else{
-            cout<<"not prime\n";
+            cout<<"No\n";
         }
     }
     

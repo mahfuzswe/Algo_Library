@@ -15,8 +15,8 @@ bool checkPrime(int n){
     return false;
 }
 
-int N = 1000000;
-bool sive[1000001];
+int N = 10000000;
+bool sive[10000001];
 void createSive(){
     for(int i=2; i<=N; i++){
         sive[i] = true;
@@ -32,8 +32,8 @@ void createSive(){
 }
 
 int main(){
-    //O(nlog(log n))
-    createSive();
+
+    // createSive();
     int t; cin>>t;
     while(t--){
         int n; cin>>n;
